@@ -1,0 +1,17 @@
+generated: '2026-07-19'
+method: searched
+source: https://inductive.bio/llms.txt
+standards:
+- id: soc2
+  conforms: true
+  evidence: 'Inductive Bio states "SOC 2 compliant" and "Partner IP is fully protected
+    under SOC 2-compliant security" on its public surface (llms.txt / consortium page).'
+- id: oauth2
+  conforms: false
+  evidence: No public OpenAPI or documented OAuth surface; app.inductive.bio is a
+    login-gated Next.js application and api.inductive.bio returns 422 for anonymous
+    requests.
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public OpenAPI to assess; api.inductive.bio error envelope is a bare
+    {"detail":"invalid request"} JSON object, not application/problem+json.

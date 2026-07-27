@@ -1,7 +1,28 @@
 aid: inductive
 name: Inductive
-description: Inductive is a company surfaced as a portfolio company of obvious-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Inductive Bio is a New York-based AI drug discovery company building a virtual
+  lab for small molecule optimization. It pairs medicinal chemists with AI to run millions
+  of in silico ADMET experiments before synthesis. Its Beacon-1 models — trained on a
+  pre-competitive, anonymized data consortium spanning thousands of drug programs — won
+  consecutive first-place finishes in the 2025 Polaris/ASAP and 2026 OpenADMET blind ADMET
+  prediction competitions, beating 370+ submissions including entries from Merck and NVIDIA.
+  Products include the Compass software platform (accessible via API), the Indy AI chemistry
+  assistant, the ADME-One high-throughput profiling service, and Embedded Experts. Founded
+  in 2023 by Josh Haimson and Ben Birnbaum (both formerly Flatiron Health); SOC 2 compliant;
+  backed by Obvious Ventures, a16z Bio+Health, Lux Capital, Bessemer Venture Partners,
+  Character, and S32.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/67fd80408c022fd8f406c6f7/6803dafa8e9822bfe4e9a943_OpenGraph.jpg
 url: https://raw.githubusercontent.com/api-evangelist/inductive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Drug Discovery
+- Biotechnology
+- Pharmaceuticals
+- Life Sciences
+- Chemistry
+- ADMET
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,25 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/inductive-domain-security.yml
 - type: Website
   url: https://inductive.bio
+- type: LLMsTxt
+  url: llms/inductive-llms.txt
+- type: Conformance
+  url: conformance/inductive-conformance.yml
+- type: Compliance
+  name: SOC 2
+  url: https://www.inductive.bio/consortium
+- type: GitHubOrganization
+  url: https://github.com/inductive-bio
+- type: Blog
+  url: https://www.inductive.bio/blog
+- type: Login
+  url: https://app.inductive.bio/login
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
