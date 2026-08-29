@@ -11,6 +11,17 @@ description: Inductive Bio is a New York-based AI drug discovery company buildin
   in 2023 by Josh Haimson and Ben Birnbaum (both formerly Flatiron Health); SOC 2 compliant;
   backed by Obvious Ventures, a16z Bio+Health, Lux Capital, Bessemer Venture Partners,
   Character, and S32.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
