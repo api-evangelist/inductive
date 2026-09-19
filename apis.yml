@@ -1,16 +1,13 @@
 aid: inductive
 name: Inductive
-description: Inductive Bio is a New York-based AI drug discovery company building a virtual
-  lab for small molecule optimization. It pairs medicinal chemists with AI to run millions
-  of in silico ADMET experiments before synthesis. Its Beacon-1 models — trained on a
-  pre-competitive, anonymized data consortium spanning thousands of drug programs — won
-  consecutive first-place finishes in the 2025 Polaris/ASAP and 2026 OpenADMET blind ADMET
-  prediction competitions, beating 370+ submissions including entries from Merck and NVIDIA.
-  Products include the Compass software platform (accessible via API), the Indy AI chemistry
-  assistant, the ADME-One high-throughput profiling service, and Embedded Experts. Founded
-  in 2023 by Josh Haimson and Ben Birnbaum (both formerly Flatiron Health); SOC 2 compliant;
-  backed by Obvious Ventures, a16z Bio+Health, Lux Capital, Bessemer Venture Partners,
-  Character, and S32.
+description: Inductive Bio is a New York-based AI drug discovery company building a virtual lab for small molecule
+  optimization. It pairs medicinal chemists with AI to run millions of in silico ADMET experiments before synthesis.
+  Its Beacon-1 models — trained on a pre-competitive, anonymized data consortium spanning thousands of drug programs
+  — won consecutive first-place finishes in the 2025 Polaris/ASAP and 2026 OpenADMET blind ADMET prediction competitions,
+  beating 370+ submissions including entries from Merck and NVIDIA. Products include the Compass software platform
+  (accessible via API), the Indy AI chemistry assistant, the ADME-One high-throughput profiling service, and Embedded
+  Experts. Founded in 2023 by Josh Haimson and Ben Birnbaum (both formerly Flatiron Health); SOC 2 compliant; backed
+  by Obvious Ventures, a16z Bio+Health, Lux Capital, Bessemer Venture Partners, Character, and S32.
 deliveryModel:
   model: saas
   open_source: false
@@ -88,6 +85,8 @@ common:
   url: https://www.inductive.bio/blog
 - type: Login
   url: https://app.inductive.bio/login
+- type: Website
+  url: https://www.inductive.bio/
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
