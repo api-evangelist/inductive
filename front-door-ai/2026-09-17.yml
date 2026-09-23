@@ -1,0 +1,32 @@
+# Front Door AI Index — inductive — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: inductive
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: inductive.bio
+  final_host: www.inductive.bio
+  ownership: inherited
+  owner: inductive
+  shares_host_with: null
+  inherited_from: www.inductive.bio
+  verdict: scored
+  score: null
+  host_score: 20
+  density: null
+  words: 381
+  tiers:
+    agentic: 3
+    core: 15
+    model: 2
+  ambiguous: 7
+  top_terms:
+    AI: 15
+    intelligence: 4
+    AI agent: 2
+    agent: 2
+    ChatGPT: 1
+    Claude: 1
+    agentic: 1
+    predictive: 1
