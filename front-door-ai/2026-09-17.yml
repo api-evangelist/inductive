@@ -7,14 +7,17 @@ front_door_ai:
   probed_at: '2026-09-17'
   host: inductive.bio
   final_host: www.inductive.bio
-  ownership: inherited
+  ownership: own
   owner: inductive
   shares_host_with: null
-  inherited_from: www.inductive.bio
+  inherited_from: null
+  alias_of: www.inductive.bio
   verdict: scored
-  score: null
+  score: 20
+  band: 5
+  band_label: prominent
   host_score: 20
-  density: null
+  density: 52.49
   words: 381
   tiers:
     agentic: 3
